@@ -1,0 +1,17 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        driverClassName: dm.jdbc.driver.DmDriver
+        url: jdbc:dm://192.168.20.114:5234/spx
+        username: bos
+        password: bos@Spx
+
+    webflux:
+        static-path-pattern: /static/**
+
+branch:
+    as:
+        first:
+            param: false

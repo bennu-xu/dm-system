@@ -1,0 +1,18 @@
+
+server:
+    port: 8080
+
+spring:
+    datasource:
+        driverClassName: dm.jdbc.driver.DmDriver
+        url: jdbc:dm://${DB_URL}
+        username: ${DB_USERNAME}
+        password: ${DB_PASSWORD}
+
+    webflux:
+        static-path-pattern: /static/**
+
+branch:
+    as:
+        first:
+            param: false

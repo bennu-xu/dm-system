@@ -20,7 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <fastjson.version>1.2.16</fastjson.version>
         <dm.jdbc.version>18</dm.jdbc.version>
-        <guava.version>25.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <junit.platform.version>1.2.0</junit.platform.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
